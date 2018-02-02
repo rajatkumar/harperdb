@@ -1,0 +1,45 @@
+{
+    "name": "harperdb",
+    "version": "0.0.1",
+    "main": "lib/index.js",
+    "description": "The missing JS client for HarperDB",
+    "homepage": "https://rajat.io",
+    "author": {
+        "name": "Rajat Kumar",
+        "email": "rajatkumartx@gmail.com"
+    },
+    "scripts": {
+        "release": "standard-version --sign",
+        "release-dry": "standard-version --dry-run"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rajatkumar/harperdb"
+    },
+    "license": "MIT",
+    "files": [
+        "lib"
+    ],
+    "keywords": [
+        "harperdb",
+        "harperdb",
+        "nodejs",
+        "sql",
+        "nosql",
+        "client"
+    ],
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "coveralls": "^2.11.14",
+        "eslint": "^3.14.1",
+        "istanbul": "^0.4.5",
+        "jscs": "^3.0.7",
+        "mocha": "^3.2.0",
+        "nsp": "^3.1.0"
+    },
+    "dependencies": {
+        "npx": "^9.7.1",
+        "prettier": "^1.10.2",
+        "standard-version": "^4.3.0"
+    }
+}

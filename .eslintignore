@@ -1,0 +1,5 @@
+# node_modules ignored by default
+node_modules/
+
+# other ignored directories
+cover_html/
