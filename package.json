@@ -9,7 +9,7 @@
         "email": "rajatkumartx@gmail.com"
     },
     "scripts": {
-        "release": "standard-version --sign",
+        "release": "standard-version",
         "release-dry": "standard-version --dry-run"
     },
     "repository": {

@@ -1,4 +1,4 @@
-# harperdb
+# harperdb (WIP - do not use)
 
 [![NPM Version](https://img.shields.io/npm/v/harperdb.svg)](https://npmjs.org/package/harperdb)
 [![Build Status](https://travis-ci.org/rajatkumar/harperdb.svg?branch=master)](https://travis-ci.org/rajatkumar/harperdb)
