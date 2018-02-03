@@ -40,6 +40,8 @@
     "dependencies": {
         "npx": "^9.7.1",
         "prettier": "^1.10.2",
-        "standard-version": "^4.3.0"
+        "restify-clients": "^1.5.2",
+        "standard-version": "^4.3.0",
+        "verror": "^1.10.0"
     }
 }
