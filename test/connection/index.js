@@ -9,10 +9,11 @@ const username = 'HDB_ADMIN';
 const password = 'admin';
 const host = 'http://localhost';
 const port = '9925';
+const logger = require('pino')();
 
 /* eslint-disable no-console */
 
-describe('harperdb', function() {
+describe('connection', function() {
     it('should connect automatically', function(done) {
         const client = harperdb.createClient({
             host,
@@ -66,7 +67,7 @@ describe('harperdb', function() {
         });
 
         client.connect((err, state) => {
-            console.log(err);
+            logger.info(err);
             // assert it throws Error
             assert.isNotNull(err);
             assert.equal(err.name, 'UnauthorizedError');
@@ -84,7 +85,7 @@ describe('harperdb', function() {
         });
 
         client.connect((err, state) => {
-            console.log(err);
+            logger.info(err);
             // assert it throws Error
             assert.isNotNull(err);
             assert.equal(err.name, 'UnauthorizedError');
@@ -92,8 +93,9 @@ describe('harperdb', function() {
         });
     });
 
-    it('should not connect for unavailable server', function(done) {
+    it.skip('should error out unavailable server', function(done) {
         this.timeout(17000);
+        // it is important to understand that we retry 3 times
         const client = harperdb.createClient({
             host,
             port: '9909',
@@ -105,7 +107,7 @@ describe('harperdb', function() {
         });
 
         client.connect((err, state) => {
-            console.log(err);
+            logger.info(err);
             // assert it throws Error
             assert.isNotNull(err);
             done();
