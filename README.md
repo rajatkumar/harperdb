@@ -1,8 +1,6 @@
 # harperdb (WIP - do not use)
 
 [![NPM Version](https://img.shields.io/npm/v/harperdb.svg)](https://npmjs.org/package/harperdb)
-[![Build Status](https://travis-ci.org/rajatkumar/harperdb.svg?branch=master)](https://travis-ci.org/rajatkumar/harperdb)
-[![Coverage Status](https://coveralls.io/repos/github/rajatkumar/harperdb/badge.svg?branch=master)](https://coveralls.io/github/rajatkumar/harperdb?branch=master)
 [![Dependency Status](https://david-dm.org/rajatkumar/harperdb.svg)](https://david-dm.org/rajatkumar/harperdb)
 [![devDependency Status](https://david-dm.org/rajatkumar/harperdb/dev-status.svg)](https://david-dm.org/rajatkumar/harperdb#info=devDependencies)
 [![bitHound Score](https://www.bithound.io/github/rajatkumar/harperdb/badges/score.svg)](https://www.bithound.io/github/rajatkumar/harperdb/master)
